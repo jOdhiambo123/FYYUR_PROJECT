@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jOdhiambo123/FYYUR_PROJECT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jOdhiambo123/FYYUR_PROJECT/issues"
+  },
+  "homepage": "https://github.com/jOdhiambo123/FYYUR_PROJECT#readme"
 }

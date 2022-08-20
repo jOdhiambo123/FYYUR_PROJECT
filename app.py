@@ -21,12 +21,12 @@ moment = Moment(app)
 app.config.from_object('config')
 db = SQLAlchemy(app)
 
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 
 # TODO: connect to a local postgresql database
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:ottyjei@localhost:5432/fyyur'
-
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #----------------------------------------------------------------------------#
 # Models.
 #----------------------------------------------------------------------------#
